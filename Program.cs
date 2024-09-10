@@ -27,7 +27,7 @@
      while (dataDate < dataEndDate)
      {
          // 7 days in a week
-         int[] hours = new int[7];
+         int [] hours = new  int[7];
          for (int i = 0; i < hours.Length; i++)
          {
              // generate random number of hours slept between 4-12 (inclusive)
@@ -41,9 +41,38 @@
      } 
      sw.Close();
  }
+ /////////////////////////////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////////////////////
  else if (resp == "2")
  {
-     // TODO: parse data file
+////////////////////////////////////////////
+// parse data file
+ if (File.Exists("data.txt")) /* checking  the text format in case we find a record */
+    {
+ StreamReader sr = new StreamReader("data.txt");
+        string? line;
+        
+  while (( line = sr.ReadLine()) != null )/* the only way the loop will not be executed is to have the text empty*/
+        {
+            
+    var parts = line.Split(',');
+    string weekDate = parts[0]; 
+     string[] hours = parts[1].Split('|'); /* There is a "," separating the date from the hours of sleep and
+             a "|" is used as a delimiter for each night’s hours of sleep */
+       /*The data contains the start date of the week followed by the # of hours of slept for each night (Sunday – Saturday).*/
+      Console.WriteLine($"Week of {DateTime.Parse(weekDate):MMM,  dd, yyyy}");/*Upper part of the calendar/ SlepDate */
 
+     Console.WriteLine("su mo tu we th fr sa");
+     Console.WriteLine("-- -- -- -- -- -- --");
+
+            
+         string formattedHours = string.Join(" ", hours.Select(h => h.PadLeft(2, ' ')));
+     Console.WriteLine($"{formattedHours}");/*Hours to sleep*/
+        Console.WriteLine();
+        }
+     sr.Close();
+/////////////////////////////
  }
-////Creating options for the user to choose from
+
+
+}
