@@ -1,0 +1,15 @@
+/Users/ramirojaimes/Sleepdata/bin/Debug/net7.0/Sleepdata
+/Users/ramirojaimes/Sleepdata/bin/Debug/net7.0/Sleepdata.deps.json
+/Users/ramirojaimes/Sleepdata/bin/Debug/net7.0/Sleepdata.runtimeconfig.json
+/Users/ramirojaimes/Sleepdata/bin/Debug/net7.0/Sleepdata.dll
+/Users/ramirojaimes/Sleepdata/bin/Debug/net7.0/Sleepdata.pdb
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/Sleepdata.csproj.AssemblyReference.cache
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/Sleepdata.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/Sleepdata.AssemblyInfoInputs.cache
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/Sleepdata.AssemblyInfo.cs
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/Sleepdata.csproj.CoreCompileInputs.cache
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/Sleepdata.dll
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/refint/Sleepdata.dll
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/Sleepdata.pdb
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/Sleepdata.genruntimeconfig.cache
+/Users/ramirojaimes/Sleepdata/obj/Debug/net7.0/ref/Sleepdata.dll
